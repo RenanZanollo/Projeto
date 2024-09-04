@@ -1,0 +1,91 @@
+.menu .logo img {
+    width: 50px;
+    right: 0px;
+    padding-right: 10px;
+}
+header {
+    background: linear-gradient(45deg, #8b36a0, #486ce0);
+}
+#cleiton {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.botoes {
+    list-style-type: none;
+}
+
+.aribabiba {
+    background: linear-gradient(45deg, #8b36a0, #486ce0);
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: black;
+}
+
+.chupa-chupa {
+    text-decoration: none;
+}
+
+.aribabiba:hover{
+    background:#fff;
+    color:#1AAB8A;
+}
+
+.aribabiba:before,.aribabiba:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+}
+.aribabiba:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.aribabiba:hover:before,.aribabiba:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+#cleiton h1{
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.botao_ir:hover
+.botao_ir:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em transparent;
+    box-shadow: 
+    0.3em 0.3em 0 0 var(--color),
+    inset 0.3em 0.3em 0 0 var(--color);  
+}
+
+@keyframes botao_ir {
+    0% { box-shadow: 0 0 0 0 var(--hover); }
+
+  }
+
+html {
+    background: black;
+}
